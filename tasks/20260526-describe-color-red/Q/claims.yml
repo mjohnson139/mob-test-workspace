@@ -1,3 +1,4 @@
 # Claims — who is working on which questions
-# Format: participant: [Q1, Q3]
 # Updated by /mob join when a participant claims questions
+agent-alice: [Q1, Q3]
+agent-bob: [Q2]
