@@ -4,3 +4,5 @@ task: ""
 roles: []
 participants:
   mjohnson139: shared
+  agent-alice: shared
+  agent-bob: shared
