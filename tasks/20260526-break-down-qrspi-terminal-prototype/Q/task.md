@@ -1,0 +1,1 @@
+Break down the QRSPI Terminal Visualizer prototype (qrspi-terminal.html) into its constituent components and identify the technologies, browser APIs, real-time data requirements, and production engineering concerns needed to evolve it from a static HTML prototype into a live, data-driven monitoring tool.

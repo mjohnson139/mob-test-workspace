@@ -1,6 +1,6 @@
 name: QRSPI Terminal Visualizer
 lead: mjohnson139
-task: ""
+task: 20260526-break-down-qrspi-terminal-prototype
 roles: []
 participants:
   mjohnson139: shared
