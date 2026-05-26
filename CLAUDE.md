@@ -1,16 +1,14 @@
-# Red Study — Project Context
+# Red Study 2 — Project Context
 
-**Branch:** `active/red-study`
+**Branch:** `active/red-study-2`
 **Lead:** @mjohnson139
-**Active Task:** 20260525-describe-color-red
+**Active Task:** 
 
 ---
 
 ## Participants
 
-- @agent-alice (shared)
-- @agent-bob (shared)
-- @mjohnson139 (shared)
+mjohnson139: shared
 
 ---
 
@@ -20,10 +18,10 @@
 Run `/mob status` to see the current phase and what's pending.
 
 ### Your Next Action
-Run `/mob fork` to get personalized instructions for what to do next.
+Run `/mob join` to get personalized instructions for what to do next.
 
 ### Push Your Work
-After creating your artifact, run `/mob push` to commit and push.
+After creating your artifact, run `/mob contribute` to commit and push.
 
 ---
 
@@ -38,3 +36,21 @@ This branch follows the Agent Mob QRSPI workflow defined in `AGENTS.md`.
 - **main branch:** Never merge project work to main
 
 See `AGENTS.md` in the root of the mob repo for the full rulebook.
+
+---
+
+## File Structure
+
+```
+active/red-study-2/
+├── PROJECT.yml         ← project manifest (lead, participants, active task)
+├── CLAUDE.md           ← this file
+└── tasks/
+    └── {task-id}/
+        ├── Q/task.md           ← task description (lead writes)
+        ├── Q/questions.md      ← research questions (lead writes)
+        ├── R/@{id}.md          ← one per participant (researcher writes)
+        ├── D/design.md         ← design doc (lead writes via mob-designer)
+        ├── S/@{id}.md          ← spec slice (each participant writes)
+        └── P/@{id}.md          ← plan file (each participant writes)
+```
