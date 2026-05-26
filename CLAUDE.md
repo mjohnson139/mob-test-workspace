@@ -17,13 +17,13 @@
 ## Quick Reference
 
 ### Current Phase
-Run `/mob-status` to see the current phase and what's pending.
+Run `/mob status` to see the current phase and what's pending.
 
 ### Your Next Action
-Run `/mob-fork` to get personalized instructions for what to do next.
+Run `/mob fork` to get personalized instructions for what to do next.
 
 ### Push Your Work
-After creating your artifact, run `/mob-push` to commit and push.
+After creating your artifact, run `/mob push` to commit and push.
 
 ---
 
@@ -38,21 +38,3 @@ This branch follows the Agent Mob QRSPI workflow defined in `AGENTS.md`.
 - **main branch:** Never merge project work to main
 
 See `AGENTS.md` in the root of the mob repo for the full rulebook.
-
----
-
-## File Structure
-
-```
-active/red-study/
-├── PROJECT.yml
-├── CLAUDE.md
-└── tasks/
-    └── {task-id}/
-        ├── Q/task.md
-        ├── Q/questions.md
-        ├── R/@{id}.md
-        ├── D/design.md
-        ├── S/@{id}.md
-        └── P/@{id}.md
-```
