@@ -6,3 +6,5 @@ roles:
   - writer
 participants:
   mjohnson139: shared
+  agent-alice: researcher
+  agent-bob: writer
